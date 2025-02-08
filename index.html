@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <title>hydration demo</title>
+  </head>
+  <body>
+    <h1>demo</h1>
+    <div data-react-root></div>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@19.0.0",
+          "react-dom/": "https://esm.sh/react-dom@19.0.0/"
+        }
+      }
+    </script>
+    <script type="module" src="build/main.mjs"></script>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "hydration-experiments",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/react": "19.0.8",
+    "@types/react-dom": "19.0.3",
+    "@web/dev-server": "^0.4.6",
+    "esbuild": "0.25.0",
+    "prettier": "^3.4.2"
+  }
+}
